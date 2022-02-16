@@ -1,5 +1,10 @@
 {
   "dependencies": {
-    "express": "^4.17.2"
+    "@elastic/apm-rum": "^5.10.2",
+    "config": "^3.3.7",
+    "express": "^4.17.2",
+    "express-winston": "^4.2.0",
+    "js-yaml": "^4.1.0",
+    "winston": "^3.6.0"
   }
 }

@@ -1,0 +1,26 @@
+server:
+  port: 8080
+apm:
+  host: localhost
+  port: 8200
+paths:
+  root:
+    minWaitTimeMs: 0
+    maxWaitTimeMs: 0
+  products:
+    minWaitTimeMs: 0
+    maxWaitTimeMs: 0
+    errorChance: 0.25
+  about:
+    minWaitTimeMs: 0
+    maxWaitTimeMs: 0
+  login:
+    minWaitTimeMs: 1000
+    maxWaitTimeMs: 3000
+  health:
+    minWaitTimeMs: 0
+    maxWaitTimeMs: 0
+    errorChance: 0.15
+  notfound:
+    minWaitTimeMs: 0
+    maxWaitTimeMs: 0

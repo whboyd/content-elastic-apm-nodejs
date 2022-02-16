@@ -1,5 +1,7 @@
 # Sample NodeJS app for elastic APM demos
 
+## Running the App
+
 To download dependencies (you need nodejs/npm installed):
 
 ```
@@ -19,3 +21,6 @@ curl localhost:8080
 
 curl localhost:8080/products
 ```
+
+## Config
+You can change settings using the config file at `config/default.yaml`.
